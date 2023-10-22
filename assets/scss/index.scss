@@ -1,0 +1,20 @@
+@font-face {
+  font-family: Dahlia;
+  src:
+    url(../fonts/Dahlia-RegularCondensed.otf) format('opentype'),
+    url(../fonts/Dahlia-RegularCondensed.woff2) format('woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Dahlia;
+  src:
+    url(../fonts/Dahlia-MediumCondensed.otf) format('opentype'),
+    url(../fonts/Dahlia-MediumCondensed.woff2) format('woff2');
+  font-weight: 500;
+}
+
+@import 'abstract';
+@import 'variables';
+@import 'utilities';
+@import 'pages';
