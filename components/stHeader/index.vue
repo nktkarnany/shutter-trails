@@ -1,6 +1,6 @@
 <template>
-  <header class="position-absolute">
-    <NuxtLink to="/"> Home </NuxtLink>
+  <header class="header">
+    <NuxtLink class="logo" to="/"> Home </NuxtLink>
     <NuxtLink to="/about"> About </NuxtLink>
     <NuxtLink to="/contact"> Contact </NuxtLink>
   </header>
@@ -11,3 +11,5 @@ export default {
   name: 'StHeader'
 };
 </script>
+
+<style lang="scss" scoped src="./styles.scss"></style>

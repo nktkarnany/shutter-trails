@@ -1,50 +1,6 @@
 :root {
-  // Static primary colors
-  --success-dark: #14b58e; // success + 7%
-  --success: #15c399;
-  --success-light: #17d6a8; // success - 7%
-  --success-lighter: #1be6b5; // success - 14%
-  --success-lightest: #2de8bb; // success - 21%
-  --warning: #ffc200;
-  --warning-light: #ffc612; // warning - 7%
-  --warning-lighter: #ffcb24; // warning - 14%
-  --warning-lightest: #ffcf36; // warning - 21%
-  --error: #bd3243;
-  --error-light: #ca384a; // error - 7%
-  --error-lighter: #ce4757; // error - 14%
-  --error-lightest: #d25665; // error - 21%
-  --ai-blue: #184e77;
-  --premium: #1b998b;
-  --premium-light: #1aa18d; // premium - 7%
-  --premium-lighter: #22c0af; // premium - 14%
-  --premium-lightest: #25d4c1; // premium - 21%
-
-  // Static grayscale colors
-  --white-static: #fff;
-  --gray-200-static: #f8f9fa;
-  --gray-300-static: #dee2e6;
-  --gray-400-static: #ced4da;
-  --gray-500-static: #adb5bd;
-  --gray-500-static-light: #b3bac2; // gray-500 - 7%
-  --gray-500-static-lighter: #b8bfc6; // gray-500 - 14%
-  --gray-600-static: #6c757d;
-  --gray-600-static-light: #757f87; // gray-600 - 7%
-  --gray-600-static-lighter: #7f8891; // gray-600 - 14%
-  --gray-700-static: #495057;
-  --gray-700-static-light: #545c64; // gray-700-static - 7%
-  --gray-700-static-lighter: #5f6872; // gray-700-static - 14%
-  --gray-800-static: #343a40;
-  --gray-800-static-light: #40484f; // gray-800 - 7%
-  --gray-800-static-lighter: #4d565e; // gray-800 - 14%
-  --gray-900-static: #212529;
-  --black-static: #000;
-
-  --text-color-dark-static: var(--gray-800-static);
-  --text-color-light-static: var(--gray-200-static);
-  --text-color-muted: var(--gray-600);
-
   //Padding and margin
-  --base-margin: 0.75rem;
+  --base-spacing: 0.75rem;
   --base-font: 100%;
 
   // Border
