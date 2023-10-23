@@ -8,6 +8,12 @@ export default defineNuxtConfig({
 
   css: ['~/assets/scss/index.scss'],
 
+  image: {
+    cloudinary: {
+      baseURL: 'https://res.cloudinary.com/difdrnkxr/image/upload/shutter-trails'
+    }
+  },
+
   devtools: { enabled: false },
 
   app: {
