@@ -12,6 +12,19 @@
   padding: 0 calc(var(--base-spacing) * 1.2);
 
   .logo {
+    font-size: calc(var(--base-font) * 2);
     margin-right: auto;
+    letter-spacing: 2.56px;
+    font-weight: 500;
+  }
+
+  a {
+    font-size: calc(var(--base-font) * 1.2);
+    letter-spacing: 2px;
+    font-weight: 400;
+  }
+
+  .mr-3 {
+    margin-right: calc(var(--base-spacing) * 0.8);
   }
 }

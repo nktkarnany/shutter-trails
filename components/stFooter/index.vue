@@ -1,5 +1,8 @@
 <template>
-  <footer class="footer">Footer</footer>
+  <footer class="footer">
+    <a class="mr-3"> Landscape </a>
+    <a> Street </a>
+  </footer>
 </template>
 
 <script lang="ts">
