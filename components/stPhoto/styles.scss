@@ -1,6 +1,7 @@
 .photo {
-  width: 100px;
-  height: 100px;
+  margin: 2px;
+  grid-row: 4 / 9;
+  grid-column: 10 / 14;
 
   img {
     width: 100%;
